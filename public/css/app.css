@@ -1,13 +1,85 @@
-body {
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300,400);body {
   margin: 0;
   padding: 0;
 }
 
-#home {
-  background: black;
+/*BARRA DE NAVEGACION*/
+
+.navbar {
+  margin-bottom: 0;
+  border: 1px solid #121619;
+  border-radius: 0;
 }
 
-#home p {
-  font-size: 40px;
+.navbar__inner {
+  background-color: #121619;
+  height: 70px;
+}
+
+.navbar__img {
+  width: 100px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.navbar-toggle {
+  margin-top: 16px;
+}
+
+/*CABECERA*/
+
+.header {
+  height: 700px;
+  font-family: 'Playfair Display', serif;
+}
+
+.header__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50%;
+     object-position: 50%;
+}
+
+.header__titular {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: -338px;
+}
+
+/*POST*/
+
+.post__fecha {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.post__fecha p {
+  display: inline-block;
+  margin: 25px;
+}
+
+.post__texto {
+  margin: 0 10%;
+  line-height: 40px;
+}
+
+/*FOOTER*/
+
+.footer {
+  background-color: #121619;
+}
+
+@media (max-width: 700px) {
+  .header {
+    height: 500px;
+  }
+
+  .post__fecha {
+    text-align: center;
+  }
 }
 
