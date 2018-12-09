@@ -124,6 +124,10 @@
   margin: 10px 0 35px;
 }
 
+.post__texto .color {
+  color: #D56C6A;
+}
+
 .post__rrss {
   margin-left: -38%;
   text-align: center;
